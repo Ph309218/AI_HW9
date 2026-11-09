@@ -1,0 +1,21 @@
+{
+  "slug": "grooming",
+  "title": "舔毛理毛",
+  "category": "habit",
+  "summary": "用舌頭一下一下梳理自己的毛。",
+  "observation": "貓咪轉頭，伸出舌頭舔過側腹或其他搆得到的部位，接著收回舌頭再舔。",
+  "contexts": [
+    {
+      "situation": "貓咪坐在熟悉的地方，輪流舔拭身體不同部位",
+      "meaning": "舔毛是貓咪日常整理被毛的一部分。"
+    }
+  ],
+  "caution": "留意是否反覆舔同一處。若舔毛明顯增加，或出現掉毛、禿斑或皮膚破損，請諮詢獸醫。",
+  "sources": [
+    {
+      "title": "Cornell University｜Cats that Lick Too Much",
+      "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/cats-lick-too-much"
+    }
+  ],
+  "imageAlt": "橘貓轉頭用舌頭舔側腹的毛"
+}
