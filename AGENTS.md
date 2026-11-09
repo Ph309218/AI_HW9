@@ -21,6 +21,7 @@
 | title | 簡短繁體中文名稱 |
 | category | body（肢體語言）、habit（日常習慣）或 play（活動遊戲） |
 | summary | 首頁一至兩句引導 |
+| imageAlt | 選填。用繁體中文描述畫面中的動作，並把對應圖片以同一 slug 命名為 assets/<slug>.png。使用 3:2 圖片，卡片和詳情頁會顯示 AI 生成標註。 |
 | observation | 描述可直接看到的動作 |
 | contexts | 至少一筆 {situation, meaning}，分開寫發生情境與可能解讀 |
 | caution | 具體的觀察或應對方式 |

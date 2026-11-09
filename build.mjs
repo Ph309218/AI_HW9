@@ -35,13 +35,19 @@ function page(title, body, prefix = '') {
 mkdirSync('docs/behaviors', { recursive: true });
 cpSync('assets', 'docs/assets', { recursive: true });
 writeFileSync('docs/.nojekyll', '');
+function behaviorImage(item, prefix = '') {
+  if (!validText(item.imageAlt)) return '';
+  return '<figure class="behavior-image"><img src="' + prefix + 'assets/' + item.slug
+    + '.png" alt="' + escape(item.imageAlt) + '" width="1536" height="1024" loading="lazy">'
+    + '<figcaption>AI 生成行為示意圖</figcaption></figure>';
+}
 const expected = new Set(behaviors.map(item => item.slug + '.html'));
 for (const file of readdirSync('docs/behaviors')) {
   if (file.endsWith('.html') && !expected.has(file)) unlinkSync('docs/behaviors/' + file);
 }
 for (const item of behaviors) {
   const body = template('detail', {
-    category: categories[item.category], title: escape(item.title), summary: escape(item.summary),
+    image: behaviorImage(item, '../'), category: categories[item.category], title: escape(item.title), summary: escape(item.summary),
     observation: escape(item.observation), caution: escape(item.caution),
     contexts: item.contexts.map(entry => '<p><strong>' + escape(entry.situation) + '</strong><br>' + escape(entry.meaning) + '</p>').join(''),
     sources: item.sources.map(source => '<li><a href="' + escape(source.url) + '">' + escape(source.title) + '</a></li>').join('')
@@ -52,7 +58,7 @@ const filters = Object.entries({ all: '全部', ...categories }).map(([id, label
   '<button class="pill" data-filter="' + id + '" aria-pressed="' + (id === 'all') + '">' + label + '</button>').join('');
 const cards = behaviors.map(item =>
   '<article class="card" data-category="' + item.category + '"><p class="kicker">' + categories[item.category]
-  + '</p><h3>' + escape(item.title) + '</h3><p>' + escape(item.summary) + '</p><a href="behaviors/' + item.slug
+  + '</p>' + behaviorImage(item) + '<h3>' + escape(item.title) + '</h3><p>' + escape(item.summary) + '</p><a href="behaviors/' + item.slug
   + '.html" aria-label="閱讀' + escape(item.title) + '">閱讀筆記 →</a></article>').join('');
 writeFileSync('docs/index.html', page('喵星人研究所｜貓咪行為圖鑑', template('home', { filters, cards })));
 console.log('已產生 ' + behaviors.length + ' 篇行為筆記。');
