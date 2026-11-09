@@ -1,0 +1,20 @@
+{
+  "slug": "tail-swishing",
+  "title": "甩尾巴",
+  "category": "body",
+  "summary": "尾巴像雨刷一樣掃動",
+  "observation": "尾巴左右掃動，有時伴隨耳朵往後壓。",
+  "contexts": [
+    {
+      "situation": "互動中尾巴明顯掃動，耳朵也變平",
+      "meaning": "牠可能覺得受威脅或不耐煩。"
+    }
+  ],
+  "caution": "暫停互動，觀察牠是否走開或放鬆。",
+  "sources": [
+    {
+      "title": "Cats Protection｜cats and fighting",
+      "url": "https://www.cats.org.uk/help-and-advice/cat-behaviour/cats-and-fighting"
+    }
+  ]
+}

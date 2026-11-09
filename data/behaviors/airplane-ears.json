@@ -1,0 +1,20 @@
+{
+  "slug": "airplane-ears",
+  "title": "飛機耳",
+  "category": "body",
+  "summary": "耳朵悄悄轉向兩側",
+  "observation": "雙耳轉向側邊或往後貼近頭部。",
+  "contexts": [
+    {
+      "situation": "陌生人靠近時，牠壓低耳朵並蹲低",
+      "meaning": "牠可能感到緊張。"
+    }
+  ],
+  "caution": "留意姿勢和退路。先停止接觸，讓牠有空間離開。",
+  "sources": [
+    {
+      "title": "Cats Protection｜cat body language",
+      "url": "https://www.cats.org.uk/help-and-advice/cat-behaviour/cat-body-language"
+    }
+  ]
+}
