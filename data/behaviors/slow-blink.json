@@ -1,0 +1,21 @@
+{
+  "slug": "slow-blink",
+  "title": "慢眨眼",
+  "category": "body",
+  "summary": "眼睛慢慢瞇起，再睜開。",
+  "observation": "雙眼逐漸瞇起，短暫閉合或接近閉合後再睜開。",
+  "contexts": [
+    {
+      "situation": "貓咪在熟悉的人附近休息",
+      "meaning": "慢眨眼可以是放鬆互動的一部分。"
+    }
+  ],
+  "caution": "看牠是否也維持放鬆的姿勢，並避免直盯牠的眼睛。",
+  "sources": [
+    {
+      "title": "Cats Protection｜Cat body language",
+      "url": "https://www.cats.org.uk/help-and-advice/cat-behaviour/cat-body-language"
+    }
+  ],
+  "imageAlt": "橘貓先瞇起雙眼再睜開"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "toy-pounce",
+  "title": "撲抓玩具",
+  "category": "play",
+  "summary": "看準目標後，突然向前撲。",
+  "observation": "貓咪盯著玩具，向前撲出並伸出前掌。",
+  "contexts": [
+    {
+      "situation": "玩具在地板上移動時",
+      "meaning": "追蹤和撲抓可出現在模仿狩獵的遊戲中。"
+    }
+  ],
+  "caution": "使用貓玩具引導撲抓，讓手指和腳趾遠離撲抓範圍。",
+  "sources": [
+    {
+      "title": "Cats Protection｜Cats and play",
+      "url": "https://www.cats.org.uk/help-and-advice/cat-behaviour/cats-and-play"
+    }
+  ],
+  "imageAlt": "橘貓伸出前掌撲向布老鼠玩具"
+}

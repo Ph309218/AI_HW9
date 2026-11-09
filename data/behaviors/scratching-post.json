@@ -1,0 +1,21 @@
+{
+  "slug": "scratching-post",
+  "title": "抓貓抓柱",
+  "category": "habit",
+  "summary": "前掌勾住柱面，身體往上伸展。",
+  "observation": "前腳伸向柱面，爪子勾住表面後往下拉。",
+  "contexts": [
+    {
+      "situation": "經過直立的貓抓柱時",
+      "meaning": "抓磨可留下氣味與抓痕，也能去除老舊的爪鞘。"
+    }
+  ],
+  "caution": "觀察牠偏好直立或水平的抓面。直立抓柱要穩固且夠高，讓牠伸展。",
+  "sources": [
+    {
+      "title": "Cornell University｜Feline behavior problems: destructive behavior",
+      "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-destructive-behavior"
+    }
+  ],
+  "imageAlt": "橘貓後腳踩地，前掌伸向直立貓抓柱"
+}
